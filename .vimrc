@@ -399,6 +399,9 @@ let g:UltiSnipsJumpBackwardTrigger="<leader><s-tab>"
 " >>
 " YCM 补全
 
+" 配置CPP补全
+let g:ycm_global_ycm_extra_conf='~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
 " YCM 补全菜单配色
 " 菜单
 highlight Pmenu ctermfg=2 ctermbg=3 guifg=#005f87 guibg=#EEE8D5
